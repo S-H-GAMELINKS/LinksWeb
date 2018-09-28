@@ -1,3 +1,11 @@
 conanbuildinfo.cmake
 conanbuildinfo.txt
 conaninfo.txt
+/CMakeFiles
+/cmake_install.cmake
+/CMakeCache.txt
+Makefile
+/tests/CTestTestfile.cmake
+/tests/cmake_install.cmake
+/tests/CMakeFiles
+/tests/CMakeFiles/awesomesauce_tests.dir/
