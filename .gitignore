@@ -9,3 +9,4 @@ Makefile
 /tests/cmake_install.cmake
 /tests/CMakeFiles
 /tests/CMakeFiles/awesomesauce_tests.dir/
+/assets/node_modules
