@@ -49,6 +49,13 @@ int main()
     auto static_assets = server.create_router("/");
     static_assets->serve_files("/", "assets");
 
+    // about pages
+    auto about = server.create_router("/about");
+    about->serve_files("/", "assets");
+
+    // contact pages
+    auto contact = server.create_router("/contact");
+    contact->serve_files("/", "assets");
 
     server.start(port);
 
