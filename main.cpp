@@ -57,6 +57,10 @@ int main()
     auto contact = server.create_router("/contact");
     contact->serve_files("/", "assets");
 
+    // Reference pagesnce
+    auto reference = server.create_router("/reference");
+    reference->serve_files("/", "assets");
+
     server.start(port);
 
     return 0;
